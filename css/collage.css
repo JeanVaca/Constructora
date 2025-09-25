@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+}
+
+.pie{
+    background-color: #808080;
+}
+.pie a{
+    color: white;
+}
+
+@media screen and (max-width: 2560px){
+    .modal{
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding: 5px 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 85%;
+        right: 7rem;
+        max-width: 1200px;
+        border: none;
+        background-color: transparent;
+    }
+    
+    .my-slides {
+        text-align: center;
+    }
+    
+    #portafolio {
+        margin-bottom: 50px;
+    }
+    
+    .portrait-image {
+        height: 98vh;
+    }
+    
+    .landscape-image {
+        width: 60vw;
+    }
+    
+    .close {
+        color:  #FFF;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 48px;
+        font-weight: bold;
+        transition: 0.3s ease;
+    }
+    
+    .close:hover {
+        color: #FFF;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    
+    .desciption{
+        margin: 50px;
+    }
+    
+    .data {
+        font-size: 30px;
+        font-weight: bolder;
+        color: #808080;
+    }
+    .dato{
+        font-size: 40px;
+        color: black;
+    }
+    .space{
+        padding: 1vh 0 1vh 0;
+    }
+    
+    .regresar{
+        border-radius: 50%;
+        margin: 0 20px 0 20px;
+        color: white;
+    }
+    .regresar:hover {
+        background-color: #f1582e;
+        transition: 1s;
+        color: white;
+    }
+    
+    .info {
+        background-color: #BEBEBE;
+        border-radius: 2rem;
+    }
+    
+    .fit-image {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .title {
+        background-color: black;
+        margin-top: 3vh;
+        padding: 1rem;
+        width: 50%;
+    }
+    .name{
+        color: white;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    .process{
+        color: white;
+        font-size: 40px;
+    }
+    
+    #my-grid {
+        margin-top: 50px;
+    }
+    
+    .grid-padding {
+        padding: 0 8px;
+    }
+    
+    .grid-padding img{
+        margin-bottom: 15px;
+        transition: 0.8s ease;
+    }
+    
+    .grid-padding img:hover{
+        box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.5);
+        transition: 0.8s ease;
+    }
+    
+    .col-sm-4 {
+        padding-right: 30px;
+    }
+    
+    
+    .containercollage{
+        height: auto;
+        width: 100%;
+    }
+    
+    .containerfotos{
+        padding: 4vh;
+        width: 100%;
+        height: auto;
+    }
+    .imgsocial{
+        width: 20px;
+        height: 20px;
+      }
+    footer{
+        height: 38px;
+      }
+    footer h3{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    }
+}
+
+@media screen and (max-width: 1760px){
+    .title {
+        background-color: black;
+        margin-top: 3vh;
+        padding: 1rem;
+        width: 50%;
+    }
+    .name{
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .process{
+        color: white;
+        font-size: 30px;
+    }
+    .data {
+        font-size: 25px;
+        font-weight: bolder;
+        color: #808080;
+    }
+    .dato{
+        font-size: 35px;
+        color: black;
+    }
+    .imgsocial{
+        width: 15px;
+        height: 15px;
+      }
+    footer{
+        height: 30px;
+    }
+    footer h3{
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .title {
+        background-color: black;
+        margin-top: 3vh;
+        padding: 1rem;
+        width: 50%;
+    }
+    .name{
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .process{
+        color: white;
+        font-size: 20px;
+    }
+    .data {
+        font-size: 15px;
+        font-weight: bolder;
+        color: #808080;
+    }
+    .dato{
+        font-size: 25px;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .title {
+        background-color: black;
+        margin-top: 3vh;
+        padding: 1rem;
+        width: 100%;
+    }
+    .name{
+        color: white;
+        font-size: 45px;
+        font-weight: bolder;
+    }
+    .process{
+        color: white;
+        font-size: 20px;
+    }
+    .data {
+        font-size: 20px;
+        font-weight: bolder;
+        color: #808080;
+    }
+    .dato{
+        font-size: 30px;
+        color: black;
+    }
+    .modal{
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding: 5px 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 85%;
+        right: 2rem;
+        max-width: 800px;
+        border: none;
+        background-color: transparent;
+    } 
+    .portrait-image {
+        height: 130vw;
+    }
+    
+    .landscape-image {
+        width: 100vw;
+    }
+}

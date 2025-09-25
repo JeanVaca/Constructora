@@ -1,0 +1,111 @@
+body{
+    font-family: 'Questrial', sans-serif;
+}
+
+.responsive {
+    text-align: center;
+    position: relative;
+}
+.responsive img {
+    width: 100%;
+    height: auto;
+  }
+
+h1{
+    font-size:3vw;
+} 
+h2{
+    font-size: 2.5vw;
+}
+h3{
+    font-size: 2vw;
+}
+
+.imgvacante{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 3rem;
+    position: relative;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .btninfo{
+    color: white;
+    padding: .3rem .8rem;
+    border-color: #949494;
+    margin-right: 2rem;
+    border-radius: .3rem;
+    background-color: #949494;
+    transition: 1s;
+  }
+  .btninfo:hover{
+    color: white;
+    background-color: #373a65;
+    border-color: #373a65;
+    transition: 1s;
+  }
+
+  .btnvacante{
+    color: white;
+    padding: .3rem 1rem;
+    border-color: #949494;
+    border-radius: .3rem;
+    background-color: #949494;
+    transition: 1s;
+  }
+  .btnvacante:hover{
+    color: white;
+    background-color: #f1582e;
+    border-color: #f1582e;
+    transition: 1s;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    h1{
+        font-size:5vw;
+    } 
+    h2{
+        font-size: 4vw;
+    }
+    h3{
+        font-size: 3vw;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+  }
+
+ .jobs{
+  height: 1250px;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-width: 1px solid;
+  border-color: #f1582e;
+ }
